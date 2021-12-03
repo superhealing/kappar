@@ -2,15 +2,9 @@
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"oil_sand_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore_fluid",
-					"properties": {
-						"type": "crude_oil_sand"
-					}
-				},
+				"block": "thermalfoundation:ore_fluid",
 				"material": [
 					"minecraft:sand",
 					"minecraft:sandstone",
@@ -22,7 +16,6 @@
 			"chunk-chance": 10,
 			"min-height": 10,
 			"max-height": 80,
-			"in-village": "false",
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -36,15 +29,12 @@
 			"dimension": "all"
 		},
 		"oil_shale_clathrate": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_gravel"
-						},
+						"metadata": 1,
 						"weight": 80
 					},
 					{
@@ -63,7 +53,6 @@
 			"chunk-chance": 10,
 			"min-height": 10,
 			"max-height": 80,
-			"in-village": "false",
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -89,16 +78,13 @@
 			"dimension": "all"
 		},
 		"oil_sand": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_sand"
-						},
+						"metadata": 0,
 						"weight": 80
 					},
 					{
@@ -119,7 +105,6 @@
 			"chunk-chance": 40,
 			"min-height": 30,
 			"max-height": 60,
-			"in-village": "false",
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",
@@ -139,16 +124,13 @@
 			}
 		},
 		"oil_shale": {
-			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
 				"block": [
 					{
 						"name": "thermalfoundation:ore_fluid",
-						"properties": {
-							"type": "crude_oil_gravel"
-						},
+						"metadata": 1,
 						"weight": 80
 					},
 					{
@@ -169,7 +151,6 @@
 			"chunk-chance": 50,
 			"min-height": 20,
 			"max-height": 60,
-			"in-village": "false",
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
