@@ -1,222 +1,195 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "mainmenu:kappar-crew.png",
-            "posX" : -220,
-            "posY" : -50,
-            "width" : 440,
-            "height" : 200,
-            "alignment" : "top_center"
+    "images": {
+        "title": {
+            "image": "mainmenu:kappar-crew.png",
+            "posX": -220,
+            "posY": -50,
+            "width": 440,
+            "height": 200,
+            "alignment": "top_center"
         }
     },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -275,
-            "posY" : -80,
-            "width" : 100,
-            "height" : 20,
-            "alignment" : "bottom_center",
-            "texture" : "mainmenu:buttons.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -125,
-            "posY" : -80,
-            "width" : 100,
-            "height" : 20,
-            "alignment" : "bottom_center",
-            "texture" : "mainmenu:buttons.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : 25,
-            "posY" : -80,
-            "width" : 100,
-            "height" : 20,
-            "alignment" : "bottom_center",
-            "texture" : "mainmenu:buttons.png",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 175,
-            "posY" : -80,
-            "width" : 100,
-            "height" : 20,
-            "alignment" : "bottom_center",
-            "texture" : "mainmenu:buttons.png",
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -20,
-            "posY" : 0,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "mainmenu:button.png",
-            "alignment" : "top_right",
-            "action" : 
-            {
-                "type" : "refresh"
+
+    "buttons": {
+        "singleplayer": {
+            "text": "menu.singleplayer",
+            "posX": -230,
+            "posY": -80,
+            "width": 100,
+            "height": 20,
+            "alignment": "bottom_center",
+            "texture": "mainmenu:buttons.png",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
             }
         },
 
-        "purp":
-        {
-            "text" : "",
-            "posX" : 108,
-            "posY" : 39,
-            "width" : 26,
-            "height" : 44,
-            "alignment" : "top_center",
-            "texture" : "mainmenu:button.png",
-            "action" : 
-            {
+        "multiplayer": {
+            "text": "menu.multiplayer",
+            "posX": -110,
+            "posY": -80,
+            "width": 100,
+            "height": 20,
+            "alignment": "bottom_center",
+            "texture": "mainmenu:buttons.png",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+
+        "options": {
+            "text": "menu.options",
+            "posX": 10,
+            "posY": -80,
+            "width": 100,
+            "height": 20,
+            "alignment": "bottom_center",
+            "texture": "mainmenu:buttons.png",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+
+        "quit": {
+            "text": "menu.quit",
+            "posX": 130,
+            "posY": -80,
+            "width": 100,
+            "height": 20,
+            "alignment": "bottom_center",
+            "texture": "mainmenu:buttons.png",
+            "action": {
+                "type": "quit"
+            }
+        },
+
+        "refresh": {
+            "text": "",
+            "posX": -20,
+            "posY": 0,
+            "width": 20,
+            "height": 20,
+            "texture": "mainmenu:button.png",
+            "alignment": "top_right",
+            "action": {
+                "type": "refresh"
+            }
+        },
+
+        "purp": {
+            "text": "",
+            "posX": 108,
+            "posY": 39,
+            "width": 26,
+            "height": 44,
+            "alignment": "top_center",
+            "texture": "mainmenu:button.png",
+            "action": {
                 "type": "openLink",
-				"link": "https://www.youtube.com/channel/UC9eHw-QPfVe2_iutryeDilw"
+                "link": "https://www.youtube.com/channel/UC9eHw-QPfVe2_iutryeDilw"
 
             }
         },
-    
-        "queen":
-        {
-            "text" : "",
-            "posX" : 68,
-            "posY" : 38,
-            "width" : 35,
-            "height" : 46,
-            "alignment" : "top_center",
-            "texture" : "mainmenu:button.png",
-            "action" : 
-            {
+
+        "queen": {
+            "text": "",
+            "posX": 68,
+            "posY": 38,
+            "width": 35,
+            "height": 46,
+            "alignment": "top_center",
+            "texture": "mainmenu:button.png",
+            "action": {
                 "type": "openLink",
-				"link": "https://www.twitch.tv/sexypepsilol"
+                "link": "https://www.twitch.tv/sexypepsilol"
 
             }
         },
 
-        "funda":
-        {
-            "text" : "",
-            "posX" : -28,
-            "posY" : 5,
-            "width" : 52,
-            "height" : 29,
-            "alignment" : "top_center",
-            "texture" : "mainmenu:button.png",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.youtube.com/channel/UCUE_SWrVkuOEwhP_Fz7--dg"
-            }
-        },
-
-        "lash":
-        {
-            "text" : "",
-            "posX" : -105,
-            "posY" : 39,
-            "width" : 30,
-            "height" : 44,
-            "alignment" : "top_center",
-            "texture" : "mainmenu:button.png",
-            "action" : 
-            {
+        "funda": {
+            "text": "",
+            "posX": -28,
+            "posY": 5,
+            "width": 52,
+            "height": 29,
+            "alignment": "top_center",
+            "texture": "mainmenu:button.png",
+            "action": {
                 "type": "openLink",
-				"link": "https://www.youtube.com/channel/UCE7HSqVe0-fTumbJJn3S5hg"
+                "link": "https://www.youtube.com/channel/UCUE_SWrVkuOEwhP_Fz7--dg"
+            }
+        },
+
+        "lash": {
+            "text": "",
+            "posX": -105,
+            "posY": 39,
+            "width": 30,
+            "height": 44,
+            "alignment": "top_center",
+            "texture": "mainmenu:button.png",
+            "action": {
+                "type": "openLink",
+                "link": "https://www.youtube.com/channel/UCE7HSqVe0-fTumbJJn3S5hg"
 
             }
         }
     },
-    
-    "labels":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -20,
-            "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
+
+    "labels": {
+        "mojang": {
+            "text": "Copyright Mojang AB. Do not distribute!",
+            "hoverText": "�nCopyright Mojang AB. Do not distribute!",
+            "posX": -197,
+            "posY": -20,
+            "color": -1,
+            "alignment": "bottom_right",
+            "action": {
+                "type": "openGui",
+                "gui": "credits"
             }
         },
 
-        "purplik":
-        {
-            "text" : "Main menu made by Purplik for KAPPAR Pack!",
-            "posX" : -221,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right",
+        "purplik": {
+            "text": "Main menu made by Purplik for KAPPAR Pack!",
+            "posX": -221,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_right",
             "action": {
 
-				"type": "openLink",
-				"link": "https://www.youtube.com/channel/UC9eHw-QPfVe2_iutryeDilw"
+                "type": "openLink",
+                "link": "https://www.youtube.com/channel/UC9eHw-QPfVe2_iutryeDilw"
 
-			}
+            }
         },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
+
+        "fml": {
+            "text": "",
+            "posX": 2,
+            "posY": -40,
+            "color": -1,
+            "alignment": "bottom_left"
         }
     },
-    
-    "other":
-    {        
+
+    "other": {
         "background": {
-			"image": "",
-			"slideshow": {
-				"images": [
-					"mainmenu:background1.png",
+            "image": "",
+            "slideshow": {
+                "images": [
+                    "mainmenu:background1.png",
                     "mainmenu:background2.png",
                     "mainmenu:background3.png",
                     "mainmenu:background4.png",
                     "mainmenu:background5.png"
-				],
-				"displayDuration": 50,
-				"fadeDuration": 30
-			}
-		}
+                ],
+                "displayDuration": 50,
+                "fadeDuration": 30
+            }
+        }
     }
 }

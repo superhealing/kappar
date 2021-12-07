@@ -1,1 +1,2 @@
 mipmapLevels:0
+guiScale:2
