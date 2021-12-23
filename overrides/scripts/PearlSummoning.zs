@@ -1,0 +1,3 @@
+import mods.roots.SummonCreatures;
+
+SummonCreatures.addEntity(<entity:thaumicaugmentation:eldritch_golem>, [<thaumcraft:mechanism_complex>, <thaumcraft:morphic_resonator>, <thaumcraft:brain>, <thaumcraft:metal_alchemical_advanced>, <thaumcraft:plate:3>, <thaumcraft:plate:3>, <thaumcraft:plate:3>, <thaumcraft:plate:3>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "motus"}]}), <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "machina"}]}) ]);
