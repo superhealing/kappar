@@ -6,7 +6,7 @@
             "generator": {
                 "block": {
                     "name": "chisel:marble2",
-                    "metadata": 7
+                    "metadata": 12
                 },
                 "material": "minecraft:stone",
                 "cluster-size": 24
