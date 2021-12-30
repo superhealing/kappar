@@ -1,4 +1,4 @@
-# Contributing to Enigmatica
+# Contributing to Kappar
 
 👍🎉 First off, thanks for taking the time to contribute! 🎉👍
 
