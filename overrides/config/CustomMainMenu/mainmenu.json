@@ -1,12 +1,14 @@
 {
-    "images": {
-        "title": {
-            "image": "mainmenu:kappar-crew.png",
-            "posX": -220,
-            "posY": -50,
-            "width": 440,
-            "height": 200,
-            "alignment": "top_center"
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:kappar-crew.png",
+            "posX" : -240,
+            "posY" : -50,
+            "width" : 480,
+            "height" : 200,
+            "alignment" : "top_center"
         }
     },
 
