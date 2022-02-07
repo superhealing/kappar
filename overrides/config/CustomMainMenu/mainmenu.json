@@ -4,9 +4,9 @@
         "title":
         {
             "image" : "mainmenu:kappar-crew.png",
-            "posX" : -220,
+            "posX" : -240,
             "posY" : -50,
-            "width" : 440,
+            "width" : 480,
             "height" : 200,
             "alignment" : "top_center"
         }
