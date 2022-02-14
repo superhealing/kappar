@@ -1266,11 +1266,6 @@
             "projectID": 502183,
             "fileID": 3571856,
             "required": true
-        },
-        {
-            "projectID": 296045,
-            "fileID": 3222659,
-            "required": true
         }
     ]
 }
