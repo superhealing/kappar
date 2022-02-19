@@ -17,3 +17,5 @@ recipes.addShapeless("Better Facades", <enderio:item_conduit_facade>, [
     });
   }, null
 );
+recipes.remove(<extrautils2:lawsword>);
+recipes.remove(<railcraft:cart_bed>);
