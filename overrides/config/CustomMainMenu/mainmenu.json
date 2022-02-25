@@ -95,7 +95,7 @@
         "purp":
         {
             "text" : "",
-            "posX" : 108,
+            "posX" : 82,
             "posY" : 39,
             "width" : 26,
             "height" : 44,
@@ -112,7 +112,7 @@
         "queen":
         {
             "text" : "",
-            "posX" : 68,
+            "posX" : 48,
             "posY" : 38,
             "width" : 35,
             "height" : 46,
@@ -129,8 +129,8 @@
         "funda":
         {
             "text" : "",
-            "posX" : -28,
-            "posY" : 5,
+            "posX" : -40,
+            "posY" : 7,
             "width" : 52,
             "height" : 29,
             "alignment" : "top_center",
@@ -145,7 +145,7 @@
         "lash":
         {
             "text" : "",
-            "posX" : -105,
+            "posX" : -109,
             "posY" : 39,
             "width" : 30,
             "height" : 44,
@@ -155,6 +155,23 @@
             {
                 "type": "openLink",
 				"link": "https://www.youtube.com/channel/UCE7HSqVe0-fTumbJJn3S5hg"
+
+            }
+        },
+
+        "three":
+        {
+            "text" : "",
+            "posX" : -152,
+            "posY" : 30,
+            "width" : 28,
+            "height" : 40,
+            "alignment" : "top_center",
+            "texture" : "mainmenu:button.png",
+            "action" : 
+            {
+                "type": "openLink",
+				"link": "https://www.youtube.com/channel/UCpWEeICUoxrhkjTID4j7-tw"
 
             }
         }
