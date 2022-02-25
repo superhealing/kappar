@@ -6,7 +6,7 @@
             "image" : "mainmenu:kappar-crew.png",
             "posX" : -240,
             "posY" : -50,
-            "width" : 480,
+            "width" : 450,
             "height" : 200,
             "alignment" : "top_center"
         }
