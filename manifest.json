@@ -9,7 +9,7 @@
     "manifestType": "minecraftModpack",
     "overrides": "overrides",
     "manifestVersion": 1,
-    "version": "0.8.7",
+    "version": "0.8.8",
     "author": "AlpDragon",
     "name": "KAPPAR!",
     "files": [{
@@ -615,11 +615,6 @@
         {
             "projectID": 340583,
             "fileID": 3003242,
-            "required": true
-        },
-        {
-            "projectID": 321092,
-            "fileID": 3225614,
             "required": true
         },
         {
