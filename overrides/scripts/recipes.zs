@@ -36,7 +36,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:dawnstone> * 16, <embers:nugget_dawnst
 mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 mods.tconstruct.Alloy.addRecipe(<liquid:steel> * 9, [<liquid:coal> * 16, <liquid:iron> * 9]);
 mods.tconstruct.Alloy.addRecipe(<liquid:dawnstone> * 8, [<liquid:gold> * 4, <liquid:copper> * 4]);
-
+mods.tconstruct.Casting.addTableRecipe(<embers:aspectus_dawnstone>, <embers:shard_ember>, <liquid:dawnstone>, 144, true, 200);
+mods.tconstruct.Casting.addTableRecipe(<embers:ingot_dawnstone>, <tconstruct:cast_custom:0>, <liquid:dawnstone>, 144, false, 200);
 
 //orechid lol
 
